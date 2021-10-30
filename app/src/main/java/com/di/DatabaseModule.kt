@@ -2,7 +2,7 @@ package com.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.todocompose.ui.theme.data.ToDoDatabase
+import com.example.todocompose.data.ToDoDatabase
 import com.utils.Constants.DATABASE_NAME
 import dagger.Module
 import dagger.Provides

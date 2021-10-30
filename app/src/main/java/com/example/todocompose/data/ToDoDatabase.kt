@@ -1,8 +1,8 @@
-package com.example.todocompose.ui.theme.data
+package com.example.todocompose.data
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.todocompose.ui.theme.data.models.ToDoTask
+import com.example.todocompose.data.models.ToDoTask
 
 @Database(entities = [ToDoTask::class],version = 1,exportSchema = false)
 abstract class ToDoDatabase : RoomDatabase() {
